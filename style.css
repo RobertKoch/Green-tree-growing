@@ -1,0 +1,57 @@
+#navigation {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 15%;
+	background-color: #dedede;
+}
+
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li {
+	display: block;
+	width: 200px;
+	height: 100%;
+	border: 1px solid black;
+	float: left;
+	margin-right: 2px;
+}
+
+#navigation ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: 40% left top;
+}
+
+#navigation ul li a:hover {
+	background-color: transparent 50% #dedede;
+}
+
+#navigation ul li a.energy {
+	background-image: url(assets/img/renewable_energy.png);
+}
+
+#navigation ul li a.co2 {
+	background-image: url(assets/img/co2.jpg);
+}
+
+#navigation ul li a.nuclear {
+	background-image: url(assets/img/nuclear.png);
+}
+
+#canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 15%;
+	background-color: #afafaf;
+}

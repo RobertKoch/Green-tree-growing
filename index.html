@@ -1,18 +1,316 @@
-<DOCTYPE HTML!>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Green Tree Growing</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+<title>Green Tree Growing</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->  
+<script type="text/javascript" charset="UTF-8">
+  $(document).ready(function() {
+
+    var countries = new Array();
+    var currentCanvasWidth = 0;
+    var listenersAdded = false;
+    var actualYearToShow = 0;
+    var drawTreeFunctionToUse = 0;
+
+    $('#infobox').html(getInfoContent()).fadeIn();
+
+    $('a.renewableEnergy').click(function(){
+      countries = new Array();
+      currentCanvasWidth = 0;
+      actualYearToShow = 2010
+      drawTreeFunctionToUse = 0;
+      $('#canvas').empty().css('margin-left', '0px');
+      loadDataset('data/erneuerbare_energie/erneuerbareEnergien.json');
+    }); 
+
+    $('a.co2').click(function(){
+      countries = new Array();
+      currentCanvasWidth = 0;
+      actualYearToShow = 2009;
+      drawTreeFunctionToUse = 1;
+      $('#canvas').empty().css('margin-left', '0px');
+      loadDataset('data/co2_indikatoren/co2_indikatoren.json');
+    }); 
+
+    $('a.money').click(function(){
+      countries = new Array();
+      currentCanvasWidth = 0;
+      drawTreeFunctionToUse = 2;
+      $('#canvas').empty().css('margin-left', '0px');
+      loadDataset('data/umweltschutzausgaben/umweltschutzausgaben.json');
+    }); 
+
+    $('a.waste').click(function(){
+      countries = new Array();
+      currentCanvasWidth = 0;
+      drawTreeFunctionToUse = 3;
+      $('#canvas').empty().css('margin-left', '0px');
+      loadDataset('data/abfall_pro_kopf/abfall.json');
+    }); 
+
+    //define functions
+    function loadDataset(url)
+    {
+
+
+      $.ajax({
+          type: "POST",
+          url: url,
+          contentType: "application/json; charset=UTF-8",
+          dataType: "json",
+          success: function(json) {
+              sortData(json);
+          },
+          error: function (xhr, textStatus, errorThrown) {
+              $("#error").html(xhr.responseText);
+          }
+      });      
+       
+       function sortData(json)
+       {
+          var counter = 0;
+          var items = new Array();
+
+
+          items = json.results.bindings;
+
+          var land = items[0].country.value;
+          var year = items[0].year.value;
+          var value = parseFloat(items[0].value.value.replace(',', '.'));
+          var maxValue = value;
+
+          var lastCountry = land;
+
+          countries[land] = new Array();
+          countries[land][year] = parseFloat(value);
+
+          for(idx in items)
+          {
+            if(idx == 0) continue;
+            
+            land = items[idx].country.value;
+            //console.log(land);
+            year = items[idx].year.value;
+            value = parseFloat(items[idx].value.value.replace(',', '.'));
+            
+            if(year == actualYearToShow)
+              maxValue = (value > maxValue) ? value : maxValue;
+
+            if(land == lastCountry)
+            { 
+              countries[lastCountry][year] = value;
+            }
+            else
+            {
+              countries[land] = new Array();
+              countries[land][year] = value;
+              
+              lastCountry = land;
+            }
+          }
+          //console.log(countries);
+
+          drawTrees(countries, maxValue);
+          
+          if(!listenersAdded)
+            addListeners(); 
+        } 
+    }
+
+
+    function addListeners()
+    {
+      listenersAdded = true;
+      $('#canvas a').click(function(){
+
+        $('#infobox').fadeOut();
+        var content = "";
+        content += '<h2>'+ this.id +'</h2>';
+        content += 'Anteil der Gewinnung in %:<br/>';
+        content += '<p>2010: '+ countries[this.id][2010] +'<br/>2009: '+ countries[this.id][2009] +'<br/>2008: '+ countries[this.id][2008] +'<br/>2007: '+ countries[this.id][2007] +'<br/>2006: '+ countries[this.id][2006] +'<br/>2005: '+ countries[this.id][2005] +'</p>'
+
+
+        //wait till box is closed
+        setTimeout(function() {
+          $('#infobox').html(content).fadeIn();        
+        } , 500);
+
+       
+      });
+
+      $('#about').click(function(){
+
+        $('#infobox').fadeOut();
+
+        var content = getInfoContent();
+
+        //wait till box is closed
+        setTimeout(function() {
+          $('#infobox').html(content).fadeIn();        
+        } , 500);
+      });
+
+      /*$('#canvas a').mouseenter(function(){
+        $('#tooltip').text(this.id).fadeIn('slow');
+      }).mouseleave(function(){
+        $('#tooltip').fadeOut('slow');
+      });*/
+
+      //for scrolling left and right
+      $('#left_nav_link, #right_nav_link').click(function() {
+
+        //fade out infobox
+        $('#infobox').fadeOut();
+
+          var _Pos = this.id.indexOf('_');
+          var side = this.id.substr(0, _Pos);
+
+          switch(side)
+          {
+            case 'left':
+              if(canScrollCanvas('left'))
+              {
+                $('#canvas').animate({
+                    'margin-left' : '+=800'
+                }, 1500, function() {
+                  // Animation complete.
+                });
+              }
+            break;
+
+            case 'right':
+              if(canScrollCanvas('right'))
+              {
+                $('#canvas').animate({
+                    'margin-left' : '-=800'
+                }, 1500, function() {
+                  // Animation complete.
+                });
+              }
+            break;
+          }
+      });
+
+
+    }
+
+    function drawTrees(countries, maxValue)
+    {
+      var picHeight = 350;
+      var counter = 0;
+      var treePic = "";
+      var randomPicMargin = 0;
+      for(var i in countries)
+      {
+        //choose random tree-pic
+        treePic = "tree_" + (Math.floor(Math.random()*3) + 1)+ ".png";
+        randomPicMargin = Math.floor(Math.random()*41);
+        currentCanvasWidth += randomPicMargin;
+
+        //deside which algorithim should calculate the height because of serveral datas
+        switch(drawTreeFunctionToUse)
+        {
+          case 0:
+            picHeight *= (countries[i][actualYearToShow] / 100);
+            picHeight = parseInt(picHeight) + 50;
+          break;
+
+          case 1:
+            picHeight = 150;
+          break;
+
+          case 2:
+            picHeight = 150;
+          break;
+
+          case 3:
+            picHeight = 150;
+          break;
+        }
+
+
+        //quadratic picture => width = height
+        currentCanvasWidth += picHeight;
+
+        $('#canvas').append('<a href="#" id="'+ i +'"><img src="img/' + treePic + '" height="' + picHeight + '" id="'+ counter +'" class="image"/></a>').css('display', 'none').fadeIn('slow');
+        
+        // for random distances between the tree for a better look & feel ;)
+        $('#canvas img#'+counter).css('margin-right', randomPicMargin);
+        
+        picHeight = 350;
+        counter++;
+      }
+      //alert(currentCanvasWidth);
+    }
+    function getInfoContent()
+    {
+      var content = "";
+      content += '<h2>About Green Tree Growing</h2>';
+      content += '<p>Green Tree Growing zeigt Daten von Eurostat-Seite der EU.<br/>Es soll klar gemacht werden, wie nachhalt Ressourcen unseres Planten genutzt werden und wie weit ein Land der EU auf die Umwelt achetet.</p><p>Die Größe der Bäume stellt den Wert da. Je größer ein Baum ist, desto besser ist der Wert. Um weitere Infos zu den Bäumen und somit Ländern zu erfahren, einfach auf den Baum klicken.</p>';
+        return content;
+    }
+
+    function canScrollCanvas(direction)
+    {
+      var currentMargin = $('#canvas').css('margin-left');
+      currentMargin = currentMargin.replace('px', '');
+      var negativeCanvasWidth = currentCanvasWidth * -1;
+
+      if(direction == 'left') {
+        if(currentMargin >= '0') {
+          return false;
+        } else {
+          return true;
+        }
+      } else if(direction == 'right') {
+        currentMargin *= 1;
+
+        if( (currentMargin - 800) <= negativeCanvasWidth) 
+        {
+          alert("scrolling end here");
+          return false;
+        }
+        else
+          return true;
+        
+      }
+      return false;
+    }
+
+  });
+
+
+</script>
 </head>
 <body>
-	<div id="navigation">
-		<ul>
-			<li><a href="#" class="energy"><span>Renewable Energy</span></a></li>
-			<li><a href="#" class="co2"><span>CO<sub>2</sub> Emissions</span></a></li>
-			<li><a href="#" class="nuclear"><span>Nuclear Energy</span></a></li>
-		</ul>
-	</div>
-	<div id="canvas"><h1>JavaScript Canvas</h1></div>
+<div id="header"></div>
+<div id="navigation">
+  <ul>
+    <li class='menu-item'><a href='#' class='renewableEnergy'><span class='linktext'>Erneuerbare Energie</span></a></li>
+    <li class='menu-item-seperator'></li>
+    <li class='menu-item'><a href='#' class='co2'><span class='linktext'>CO<sub>2</sub> Emissionen</span></a></li>
+    <li class='menu-item-seperator'></li>
+    <li class='menu-item'><a href='#' class='money'><span class='linktext'>Ausgaben Umweltschutz</span></a></li>
+    <li class='menu-item-seperator'></li>
+    <li class='menu-item'><a href='#' class='waste'><span class='linktext'>Abfall pro Kopf</span></a></li>
+    <li class='menu-item-seperator'></li>
+  </ul>
+</div>
+<div id="about"><a href="#"></a></div>
+<div id="infobox"></div>
+ <div id="canvas_container">
+  <div id="canvas"></div>
+</div>
+<div id="left_navigator"><a href='#' id='left_nav_link'></a></div>
+<div id="right_navigator"><a href='#' id='right_nav_link'></a></div>
+<div id="tooltip"></div>
+<div id="plane"></div>
+<div id="plane_bottom"></div>
 </body>
+
 </html>

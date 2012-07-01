@@ -1,0 +1,2413 @@
+{
+  "head": {
+    "vars": [
+      "country",
+      "year",
+      "value"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Belgien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Belgien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Belgien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Belgien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Belgien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "9,7"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Bulgarien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "8,7"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Bulgarien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "19,51"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Bulgarien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Bulgarien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Bulgarien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Dänemark"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Dänemark"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Dänemark"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Dänemark"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Dänemark"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "27,72"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Estland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "42,57"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Estland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "35,15"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Estland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "51,9"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Estland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Estland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "21,18"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Finnland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "25,7"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Finnland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "42,27"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Finnland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Finnland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Finnland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "16,4"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Frankreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "18,83"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Frankreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "18,61"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Frankreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "19,79"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Frankreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Frankreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Griechenland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Griechenland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Griechenland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Griechenland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Griechenland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "42,06"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Italien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "36,72"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Italien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "27,25"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Italien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Italien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Italien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "15,15"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Kroatien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "14,44"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Kroatien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "17,48"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Kroatien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "7,6"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Kroatien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "14,74"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Kroatien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "45,27"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Lettland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "63,22"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Lettland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "55.0"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Lettland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Lettland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Lettland"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "22,16"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Litauen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "16,39"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Litauen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "25,04"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Litauen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Litauen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Litauen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Luxemburg"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Luxemburg"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Luxemburg"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Luxemburg"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Luxemburg"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Malta"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Malta"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Malta"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Malta"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Malta"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "52,39"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Niederlande"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Niederlande"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "44,53"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Niederlande"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Niederlande"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Niederlande"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Norwegen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Norwegen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Norwegen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Norwegen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Norwegen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "36,17"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Polen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "30,03"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Polen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "17,33"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Polen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "21,94"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Polen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "29,33"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Polen"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "46,93"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Portugal"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "40,97"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Portugal"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "15,96"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Portugal"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Portugal"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Portugal"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Rumänien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Rumänien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Rumänien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Rumänien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Rumänien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "54,55"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweden"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "34,22"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweden"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweden"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweden"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweden"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweiz"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweiz"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweiz"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweiz"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Schweiz"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "35,6"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowakei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "48,79"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowakei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "48,72"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowakei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowakei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "57,36"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowakei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "46,32"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowenien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "44,53"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowenien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "44,92"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowenien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowenien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Slowenien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "51,71"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Spanien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "53,22"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Spanien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "50,98"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Spanien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "55,23"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Spanien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Spanien"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "51,93"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Tschechische Republik"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "43,18"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Tschechische Republik"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "49,79"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Tschechische Republik"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "47,44"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Tschechische Republik"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "52,9"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Tschechische Republik"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Türkei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Türkei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Türkei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Türkei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Türkei"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "25,32"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Ungarn"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "37,28"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Ungarn"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "23,15"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Ungarn"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "19.0"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Ungarn"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Ungarn"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "56,79"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Vereinigtes Königreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "70,93"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Vereinigtes Königreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "65,01"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Vereinigtes Königreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "63,84"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Vereinigtes Königreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Vereinigtes Königreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "62,95"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Zypern"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "40,38"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Zypern"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "64,85"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Zypern"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Zypern"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Zypern"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "33,5"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2005"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Österreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "34,47"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2006"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Österreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": "37,96"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2007"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Österreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2008"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Österreich"
+        }
+      },
+      {
+        "value": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#double",
+          "value": ":"
+        },
+        "year": {
+          "type": "typed-literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#int",
+          "value": "2009"
+        },
+        "country": {
+          "type": "literal",
+          "value": "Österreich"
+        }
+      }
+    ]
+  }
+}

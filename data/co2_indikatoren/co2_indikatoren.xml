@@ -1,0 +1,1880 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+<head>
+<variable name='country'/>
+<variable name='year'/>
+<variable name='value'/>
+</head>
+<results>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>100</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Belgien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>96</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Belgien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>93</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Belgien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>94</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Belgien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>87</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Belgien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>60</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Bulgarien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>61</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Bulgarien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>64</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Bulgarien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>62</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Bulgarien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>53</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Bulgarien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>80</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Deutschland (einschließlich der ehemaligen DDR seit 1991)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>80</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Deutschland (einschließlich der ehemaligen DDR seit 1991)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>79</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Deutschland (einschließlich der ehemaligen DDR seit 1991)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>79</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Deutschland (einschließlich der ehemaligen DDR seit 1991)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>74</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Deutschland (einschließlich der ehemaligen DDR seit 1991)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>94</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Dänemark</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>105</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Dänemark</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>98</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Dänemark</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>94</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Dänemark</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>90</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Dänemark</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>47</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Estland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>46</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Estland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>53</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Estland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>49</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Estland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>41</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Estland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>98</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (15 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>97</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (15 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>96</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (15 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>94</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (15 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>87</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (15 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>92</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (27 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>92</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (27 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>91</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (27 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>89</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (27 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>83</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Europäische Union (27 Länder)</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>97</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Finnland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>113</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Finnland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>111</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Finnland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>100</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Finnland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>94</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Finnland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>101</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Frankreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>98</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Frankreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>97</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Frankreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>96</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Frankreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>92</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Frankreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>129</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Griechenland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>125</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Griechenland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>128</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Griechenland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>123</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Griechenland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>117</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Griechenland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>126</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Irland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>125</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Irland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>124</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Irland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>124</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Irland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>114</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Irland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>109</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Island</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>125</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Island</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>132</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Island</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>143</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Island</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>135</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Island</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>111</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Italien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>109</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Italien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>107</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Italien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>104</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Italien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>95</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Italien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>43</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Lettland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>45</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Lettland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>46</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Lettland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>45</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Lettland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>40</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Lettland</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>118</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Liechtenstein</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>119</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Liechtenstein</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>106</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Liechtenstein</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>115</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Liechtenstein</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>108</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Liechtenstein</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>46</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Litauen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>47</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Litauen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>51</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Litauen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>48</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Litauen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>44</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Litauen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>103</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Luxemburg</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>101</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Luxemburg</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>97</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Luxemburg</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>96</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Luxemburg</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>91</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Luxemburg</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>142</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Malta</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>144</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Malta</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>148</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Malta</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>146</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Malta</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>139</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Malta</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>100</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Niederlande</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>98</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Niederlande</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>97</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Niederlande</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>97</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Niederlande</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>94</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Niederlande</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>108</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Norwegen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>107</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Norwegen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>111</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Norwegen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>108</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Norwegen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>103</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Norwegen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>86</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Polen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>89</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Polen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>88</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Polen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>87</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Polen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>83</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Polen</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>145</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Portugal</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>137</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Portugal</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>133</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Portugal</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>131</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Portugal</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>126</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Portugal</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>62</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Rumänien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>64</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Rumänien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>62</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Rumänien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>61</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Rumänien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>52</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Rumänien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>93</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Schweden</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>93</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Schweden</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>91</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Schweden</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>88</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Schweden</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>83</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Schweden</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>102</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Schweiz</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>101</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Schweiz</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>97</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Schweiz</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>101</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Schweiz</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>98</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Schweiz</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>68</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Slowakei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>67</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Slowakei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>65</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Slowakei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>65</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Slowakei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>59</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Slowakei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>110</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Slowenien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>111</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Slowenien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>111</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Slowenien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>115</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Slowenien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>105</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Slowenien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>153</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Spanien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>150</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Spanien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>154</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Spanien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>143</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Spanien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>130</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Spanien</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>74</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Tschechische Republik</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>75</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Tschechische Republik</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>75</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Tschechische Republik</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>72</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Tschechische Republik</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>68</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Tschechische Republik</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>176</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Türkei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>187</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Türkei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>203</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Türkei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>196</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Türkei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>198</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Türkei</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>82</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Ungarn</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>80</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Ungarn</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>78</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Ungarn</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>75</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Ungarn</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>69</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Ungarn</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>84</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Vereinigtes Königreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>83</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Vereinigtes Königreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>82</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Vereinigtes Königreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>80</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Vereinigtes Königreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>73</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Vereinigtes Königreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>182</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Zypern</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>184</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Zypern</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>187</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Zypern</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>193</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Zypern</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>178</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Zypern</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>119</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2005</literal>
+</binding>
+<binding name='country'>
+<literal>Österreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>115</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2006</literal>
+</binding>
+<binding name='country'>
+<literal>Österreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>112</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2007</literal>
+</binding>
+<binding name='country'>
+<literal>Österreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>111</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2008</literal>
+</binding>
+<binding name='country'>
+<literal>Österreich</literal>
+</binding>
+</result>
+<result>
+<binding name='value'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>102</literal>
+</binding>
+<binding name='year'>
+<literal datatype='http://www.w3.org/2001/XMLSchema#int'>2009</literal>
+</binding>
+<binding name='country'>
+<literal>Österreich</literal>
+</binding>
+</result>
+</results>
+</sparql>

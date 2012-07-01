@@ -1,57 +1,232 @@
+body {
+  font-family: "Comic Sans MS", cursive;
+  background-image: url(img/himmel.jpg);
+  background-repeat: no-repeat;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 5;
+
+}
+
 #navigation {
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	height: 15%;
-	background-color: #dedede;
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-image: url(img/menu.png);
+  background-repeat: repeat-x;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  z-index: 5;
 }
 
 #navigation ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  position: absolute;
+  top: -10px;
+  left: -40px;
 }
 
-#navigation ul li {
-	display: block;
-	width: 200px;
-	height: 100%;
-	border: 1px solid black;
-	float: left;
-	margin-right: 2px;
+.menu-item-seperator {
+  display: block;
+  width: 9px;
+  height: 75px;
+  float: left;
+  margin-top: 1px;
+  text-align: center;
+  vertical-align: top;
+  background-image: url(img/seperator.png);
+  background-repeat: no-repeat;
 }
 
-#navigation ul li a {
-	display: block;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	background-repeat: no-repeat;
-	background-position: 40% left top;
+.menu-item {
+  display: block;
+  width: 230px;
+  height: 80px;
+  float:left;
+  text-align: center;
+  vertical-align: top;
 }
 
-#navigation ul li a:hover {
-	background-color: transparent 50% #dedede;
+.menu-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
 }
 
-#navigation ul li a.energy {
-	background-image: url(assets/img/renewable_energy.png);
+.menu-item:hover {
+  background: rgba(222,222,222,0.1);
 }
 
-#navigation ul li a.co2 {
-	background-image: url(assets/img/co2.jpg);
+.menu-item span.linktext {
+    vertical-align: -55px;
 }
 
-#navigation ul li a.nuclear {
-	background-image: url(assets/img/nuclear.png);
+.menu-item a.renewableEnergy {
+  background: url(img/energy.png);
+  background-repeat: no-repeat;
+  background-position: center 20%;
+  background-size: 50px;
+}
+
+.menu-item a.co2 {
+  background: url(img/footprint.png);
+  background-repeat: no-repeat;
+  background-position: center 20%;
+  background-size: 50px;
+}
+
+.menu-item a.money {
+  background: url(img/money1.png);
+  background-repeat: no-repeat;
+  background-position: center 20%;
+  background-size: 50px;
+}
+
+.menu-item a.waste {
+  background: url(img/waste.png);
+  background-repeat: no-repeat;
+  background-position: center 20%;
+  background-size: 50px;
+}
+
+#about {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 120px;
+  height: 100px;
+  background-image: url(img/gtg.png);
+  background-repeat: no-repeat;
+  background-size: 120px;
+  z-index: 6;
+}
+
+#about a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#infobox {
+  display: none;
+  position: relative;
+  margin: auto;
+  top: 80px;
+  width: 460px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color:rgba(222,222,222,0.5);
+  padding: 20px;
+  z-index: 10;
+}
+
+#canvas_container {
+  position: fixed;
+  bottom: 105px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 2;  
 }
 
 #canvas {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 15%;
-	background-color: #afafaf;
+  float: left;
+  width: 4000%;
+  z-index: 4;
+  margin-left:0px;
+}
+
+/*#canvas img {
+  position: relative;
+  bottom: 0;
+  float: left;
+}*/
+
+#plane {
+  position: fixed;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-image: url(img/plane.png);
+  background-repeat: repeat-x;
+  z-index: 1;
+}
+
+#plane_bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background-image: url(img/plane_bottom.png);
+  background-repeat: repeat-x;
+  z-index: 1;
+}
+
+#left_navigator {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 105px;
+  width: 30px;
+  background: url(img/navi_left.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  filter:alpha(opacity=7);
+  z-index: 5;
+}
+
+#right_navigator {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  bottom: 105px;
+  width: 30px;
+  background: url(img/navi_right.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  filter:alpha(opacity=7);
+  z-index: 5;
+}
+
+#left_navigator a, #right_navigator a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#left_navigator a:hover, #right_navigator a:hover {
+  background: #dedede;
+  opacity: 0.2;
+  -moz-opacity: 0.2;
+  filter:alpha(opacity=2);
+}
+
+#tooltip {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  color: white;
+  width: auto;
+  height: auto;
+  font-size: 22px;
 }

@@ -135,12 +135,12 @@ body {
   position: relative;
   margin: auto;
   top: 80px;
-  width: 550px;
+  width: 600px;
   text-align: center;
   border: 1px solid white;
   border-radius: 10px;
   background-color:rgba(222,222,222,0.5);
-  padding: 20px;
+  padding: 0 20px 0 20px;
   z-index: 10;
 }
 

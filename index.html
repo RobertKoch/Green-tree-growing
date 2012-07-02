@@ -27,7 +27,7 @@
       dataToVisualize = 0;
       $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
-      $('#header').html('<span><h2>a Test oder so der etwas länger ist</h2></span>');
+      $('#header').html('<span><h2>Elektrizitätserzeugung aus erneuerbaren Energien</h2></span>');
       loadDataset('data/erneuerbare_energie/erneuerbareEnergien.json');
     }); 
 
@@ -38,9 +38,9 @@
       dataToVisualize = 1;
       $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
-      $('#header').html('<span><h2>a Test oder so der etwas länger ist</h2></span>');
+      $('#header').html('<span><h2>Indikatoren für Treibhausgasemissionen & Luftverschmutzung</h2></span>');
       loadDataset('data/co2_indikatoren/co2_indikatoren.json');
-    }); 
+    });
 
     $('a.money').click(function(){
       countries = new Array();
@@ -49,7 +49,7 @@
       dataToVisualize = 2;
       $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
-      $('#header').html('<span><h2>a Test oder so der etwas länger ist</h2></span>');
+      $('#header').html('<span><h2>Investitionen in die Vermeidung der Umweltverschmutzung</h2></span>');
       loadDataset('data/umweltschutzausgaben/umweltschutzausgaben.json');
     }); 
 
@@ -61,7 +61,7 @@
       $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
       loadDataset('data/abfall_pro_kopf/abfall.json');
-      $('#header').html('<span><h2>a Test oder so der etwas länger ist</h2></span>');
+      $('#header').html('<span><h2>Abfallaufkommen in Tonnen pro Kopf </h2></span>');
     }); 
 
     //define functions
@@ -141,25 +141,40 @@
 
         $('#infobox').fadeOut();
         var content = "";
-        content += '<h2>'+ this.id +'</h2>';
+        content += '<h3>'+ this.id +'</h3>';
 
         switch(dataToVisualize)
         {
           case 0:
-            content += 'Anteil der Gewinnung in %:<br/>';
-            content += '<p>2010: '+ countries[this.id][2010] +'<br/>2009: '+ countries[this.id][2009] +'<br/>2008: '+ countries[this.id][2008] +'<br/>2007: '+ countries[this.id][2007] +'<br/>2006: '+ countries[this.id][2006] +'<br/>2005: '+ countries[this.id][2005] +'</p>';
+            content += ' Anteil erneuerbarer Energien in der Elektrizitätserzeugung in Prozent.<br/><p>';
+            for(var i = actualYearToShow; i >= 2005; i--)
+              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + ' %</span><br/>';
           break;
+
           case 1:
+            content += ' Anteil erneuerbarer Energien in der Elektrizitätserzeugung in Prozent.<br/><p>';
+            for(var i = actualYearToShow; i >= 2005; i--)
+              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + ' %</span><br/>';
           break;
+
           case 2:
+            content += ' Anteil erneuerbarer Energien in der Elektrizitätserzeugung in Prozent.<br/><p>';
+            for(var i = actualYearToShow; i >= 2005; i--)
+              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + ' %</span><br/>';
           break;
+
           case 3:
+            content += ' Anteil erneuerbarer Energien in der Elektrizitätserzeugung in Prozent.<br/><p>';
+            for(var i = actualYearToShow; i >= 2005; i--)
+              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + ' %</span><br/>';
           break;
         }
 
+        content += '</p>';
+        
         //wait till box is closed
         setTimeout(function() {
-          $('#infobox').html(content).css('width', '550px').fadeIn();        
+          $('#infobox').html(content).css('width', '600px').fadeIn();        
         } , 500);
 
        

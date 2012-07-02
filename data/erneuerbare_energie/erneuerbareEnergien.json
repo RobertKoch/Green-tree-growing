@@ -213,7 +213,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlie?lich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -229,7 +229,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlie?lich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -245,7 +245,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlie?lich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -261,7 +261,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlie?lich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -277,7 +277,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlie?lich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -293,7 +293,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlie?lich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -405,7 +405,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -421,7 +421,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -437,7 +437,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -453,7 +453,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -469,7 +469,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -485,7 +485,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -597,7 +597,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (25 Länder)"
+          "value": "Europ?ische Union (25 L?nder)"
         }
       },
       {
@@ -613,7 +613,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (25 Länder)"
+          "value": "Europ?ische Union (25 L?nder)"
         }
       },
       {
@@ -629,7 +629,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (25 Länder)"
+          "value": "Europ?ische Union (25 L?nder)"
         }
       },
       {
@@ -645,7 +645,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (25 Länder)"
+          "value": "Europ?ische Union (25 L?nder)"
         }
       },
       {
@@ -661,7 +661,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (25 Länder)"
+          "value": "Europ?ische Union (25 L?nder)"
         }
       },
       {
@@ -677,7 +677,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (25 Länder)"
+          "value": "Europ?ische Union (25 L?nder)"
         }
       },
       {
@@ -693,7 +693,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (27 Länder)"
+          "value": "Europ?ische Union (27 L?nder)"
         }
       },
       {
@@ -709,7 +709,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (27 Länder)"
+          "value": "Europ?ische Union (27 L?nder)"
         }
       },
       {
@@ -725,7 +725,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (27 Länder)"
+          "value": "Europ?ische Union (27 L?nder)"
         }
       },
       {
@@ -741,7 +741,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (27 Länder)"
+          "value": "Europ?ische Union (27 L?nder)"
         }
       },
       {
@@ -757,7 +757,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (27 Länder)"
+          "value": "Europ?ische Union (27 L?nder)"
         }
       },
       {
@@ -773,7 +773,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Europäische Union (27 Länder)"
+          "value": "Europ?ische Union (27 L?nder)"
         }
       },
       {
@@ -2133,7 +2133,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "Rum?nien"
         }
       },
       {
@@ -2149,7 +2149,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "Rum?nien"
         }
       },
       {
@@ -2165,7 +2165,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "Rum?nien"
         }
       },
       {
@@ -2181,7 +2181,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "Rum?nien"
         }
       },
       {
@@ -2197,7 +2197,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "Rum?nien"
         }
       },
       {
@@ -2213,7 +2213,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "Rum?nien"
         }
       },
       {
@@ -2805,7 +2805,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "T?rkei"
         }
       },
       {
@@ -2821,7 +2821,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "T?rkei"
         }
       },
       {
@@ -2837,7 +2837,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "T?rkei"
         }
       },
       {
@@ -2853,7 +2853,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "T?rkei"
         }
       },
       {
@@ -2869,7 +2869,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "T?rkei"
         }
       },
       {
@@ -2885,7 +2885,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "T?rkei"
         }
       },
       {
@@ -2997,7 +2997,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes K?nigreich"
         }
       },
       {
@@ -3013,7 +3013,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes K?nigreich"
         }
       },
       {
@@ -3029,7 +3029,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes K?nigreich"
         }
       },
       {
@@ -3045,7 +3045,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes K?nigreich"
         }
       },
       {
@@ -3061,7 +3061,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes K?nigreich"
         }
       },
       {
@@ -3077,7 +3077,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes K?nigreich"
         }
       },
       {
@@ -3189,7 +3189,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "?sterreich"
         }
       },
       {
@@ -3205,7 +3205,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "?sterreich"
         }
       },
       {
@@ -3221,7 +3221,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "?sterreich"
         }
       },
       {
@@ -3237,7 +3237,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "?sterreich"
         }
       },
       {
@@ -3253,7 +3253,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "?sterreich"
         }
       },
       {
@@ -3269,7 +3269,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "?sterreich"
         }
       }
     ]

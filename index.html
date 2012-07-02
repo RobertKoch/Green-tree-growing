@@ -13,18 +13,21 @@
 
     var countries = new Array();
     var currentCanvasWidth = 0;
-    var listenersAdded = false;
+    var scrollBarAdded = false;
     var actualYearToShow = 0;
-    var drawTreeFunctionToUse = 0;
+    var dataToVisualize = 0;
 
-    $('#infobox').html(getInfoContent()).fadeIn();
+    $('#header').html('<span><h2>Green Tree Growing</h2></span>');
+    $('#infobox').html(getInfoContent()).css('width', '800px').fadeIn();
 
     $('a.renewableEnergy').click(function(){
       countries = new Array();
       currentCanvasWidth = 0;
-      actualYearToShow = 2010
-      drawTreeFunctionToUse = 0;
+      actualYearToShow = 2010;
+      dataToVisualize = 0;
+      $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
+      $('#header').html('<span><h2>a Test oder so der etwas länger ist</h2></span>');
       loadDataset('data/erneuerbare_energie/erneuerbareEnergien.json');
     }); 
 
@@ -32,25 +35,33 @@
       countries = new Array();
       currentCanvasWidth = 0;
       actualYearToShow = 2009;
-      drawTreeFunctionToUse = 1;
+      dataToVisualize = 1;
+      $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
+      $('#header').html('<span><h2>a Test oder so der etwas länger ist</h2></span>');
       loadDataset('data/co2_indikatoren/co2_indikatoren.json');
     }); 
 
     $('a.money').click(function(){
       countries = new Array();
       currentCanvasWidth = 0;
-      drawTreeFunctionToUse = 2;
+      actualYearToShow = 2009;
+      dataToVisualize = 2;
+      $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
+      $('#header').html('<span><h2>a Test oder so der etwas länger ist</h2></span>');
       loadDataset('data/umweltschutzausgaben/umweltschutzausgaben.json');
     }); 
 
     $('a.waste').click(function(){
       countries = new Array();
       currentCanvasWidth = 0;
-      drawTreeFunctionToUse = 3;
+      actualYearToShow = 2009;
+      dataToVisualize = 3;
+      $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
       loadDataset('data/abfall_pro_kopf/abfall.json');
+      $('#header').html('<span><h2>a Test oder so der etwas länger ist</h2></span>');
     }); 
 
     //define functions
@@ -116,28 +127,39 @@
           //console.log(countries);
 
           drawTrees(countries, maxValue);
-          
-          if(!listenersAdded)
-            addListeners(); 
+          addListeners(); 
+
+          if(!scrollBarAdded)
+            addScrollBars();
         } 
     }
 
 
     function addListeners()
     {
-      listenersAdded = true;
       $('#canvas a').click(function(){
 
         $('#infobox').fadeOut();
         var content = "";
         content += '<h2>'+ this.id +'</h2>';
-        content += 'Anteil der Gewinnung in %:<br/>';
-        content += '<p>2010: '+ countries[this.id][2010] +'<br/>2009: '+ countries[this.id][2009] +'<br/>2008: '+ countries[this.id][2008] +'<br/>2007: '+ countries[this.id][2007] +'<br/>2006: '+ countries[this.id][2006] +'<br/>2005: '+ countries[this.id][2005] +'</p>'
 
+        switch(dataToVisualize)
+        {
+          case 0:
+            content += 'Anteil der Gewinnung in %:<br/>';
+            content += '<p>2010: '+ countries[this.id][2010] +'<br/>2009: '+ countries[this.id][2009] +'<br/>2008: '+ countries[this.id][2008] +'<br/>2007: '+ countries[this.id][2007] +'<br/>2006: '+ countries[this.id][2006] +'<br/>2005: '+ countries[this.id][2005] +'</p>';
+          break;
+          case 1:
+          break;
+          case 2:
+          break;
+          case 3:
+          break;
+        }
 
         //wait till box is closed
         setTimeout(function() {
-          $('#infobox').html(content).fadeIn();        
+          $('#infobox').html(content).css('width', '550px').fadeIn();        
         } , 500);
 
        
@@ -151,7 +173,7 @@
 
         //wait till box is closed
         setTimeout(function() {
-          $('#infobox').html(content).fadeIn();        
+          $('#infobox').html(content).css('width', '800px').fadeIn();        
         } , 500);
       });
 
@@ -160,6 +182,13 @@
       }).mouseleave(function(){
         $('#tooltip').fadeOut('slow');
       });*/
+    }
+
+    function addScrollBars() {
+      scrollBarAdded = true;
+
+      //plane begins left, only scrolling right possible at first
+      $('#right_navigator').fadeIn();
 
       //for scrolling left and right
       $('#left_nav_link, #right_nav_link').click(function() {
@@ -178,7 +207,10 @@
                 $('#canvas').animate({
                     'margin-left' : '+=800'
                 }, 1500, function() {
-                  // Animation complete.
+                  if(!canScrollCanvas('left'))
+                    $('#left_navigator').fadeOut();
+                  else
+                    $('#right_navigator').fadeIn();
                 });
               }
             break;
@@ -189,14 +221,15 @@
                 $('#canvas').animate({
                     'margin-left' : '-=800'
                 }, 1500, function() {
-                  // Animation complete.
+                  if(!canScrollCanvas('right'))
+                    $('#right_navigator').fadeOut();
+                  else
+                    $('#left_navigator').fadeIn();
                 });
               }
             break;
           }
       });
-
-
     }
 
     function drawTrees(countries, maxValue)
@@ -213,7 +246,7 @@
         currentCanvasWidth += randomPicMargin;
 
         //deside which algorithim should calculate the height because of serveral datas
-        switch(drawTreeFunctionToUse)
+        switch(dataToVisualize)
         {
           case 0:
             picHeight *= (countries[i][actualYearToShow] / 100);
@@ -272,7 +305,6 @@
 
         if( (currentMargin - 800) <= negativeCanvasWidth) 
         {
-          alert("scrolling end here");
           return false;
         }
         else

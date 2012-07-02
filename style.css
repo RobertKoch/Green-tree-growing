@@ -15,6 +15,16 @@ body {
 
 }
 
+#header span {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+}
+
+#header h2 {
+  color: #fff;
+}
+
 #navigation {
   position: fixed;
   bottom: 10px;
@@ -125,7 +135,7 @@ body {
   position: relative;
   margin: auto;
   top: 80px;
-  width: 460px;
+  width: 550px;
   text-align: center;
   border: 1px solid white;
   border-radius: 10px;
@@ -179,6 +189,7 @@ body {
 }
 
 #left_navigator {
+  display: none;
   position: fixed;
   top: 50px;
   left: 0;
@@ -194,6 +205,7 @@ body {
 }
 
 #right_navigator {
+  display: none;
   position: fixed;
   top: 50px;
   right: 0;

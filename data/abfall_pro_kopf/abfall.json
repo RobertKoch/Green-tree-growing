@@ -1,4 +1,4 @@
-    {
+Ôªø    {
        "head":
        {
            "vars":
@@ -138,7 +138,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Deutschland (einschlieﬂlich der ehemaligen DDR seit 1991)"
+                       "value": "Deutschland (einschlie√ülich der ehemaligen DDR seit 1991)"
                    }
                },
                {
@@ -156,7 +156,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Deutschland (einschlieﬂlich der ehemaligen DDR seit 1991)"
+                       "value": "Deutschland (einschlie√ülich der ehemaligen DDR seit 1991)"
                    }
                },
                {
@@ -174,7 +174,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Deutschland (einschlieﬂlich der ehemaligen DDR seit 1991)"
+                       "value": "Deutschland (einschlie√ülich der ehemaligen DDR seit 1991)"
                    }
                },
                {
@@ -193,7 +193,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "D‰nemark"
+                       "value": "D√§nemark"
                    }
                },
                {
@@ -211,7 +211,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "D‰nemark"
+                       "value": "D√§nemark"
                    }
                },
                {
@@ -229,7 +229,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "D‰nemark"
+                       "value": "D√§nemark"
                    }
                },
                {
@@ -303,7 +303,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Europ‰ische Union (15 L‰nder)"
+                       "value": "Europ√§ische Union (15 L√§nder)"
                    }
                },
                {
@@ -321,7 +321,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Europ‰ische Union (15 L‰nder)"
+                       "value": "Europ√§ische Union (15 L√§nder)"
                    }
                },
                {
@@ -339,7 +339,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Europ‰ische Union (15 L‰nder)"
+                       "value": "Europ√§ische Union (15 L√§nder)"
                    }
                },
                {
@@ -358,7 +358,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Europ‰ische Union (27 L‰nder)"
+                       "value": "Europ√§ische Union (27 L√§nder)"
                    }
                },
                {
@@ -376,7 +376,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Europ‰ische Union (27 L‰nder)"
+                       "value": "Europ√§ische Union (27 L√§nder)"
                    }
                },
                {
@@ -394,7 +394,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Europ‰ische Union (27 L‰nder)"
+                       "value": "Europ√§ische Union (27 L√§nder)"
                    }
                },
                {
@@ -1238,7 +1238,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Rum‰nien"
+                       "value": "Rum√§nien"
                    }
                },
                {
@@ -1256,7 +1256,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Rum‰nien"
+                       "value": "Rum√§nien"
                    }
                },
                {
@@ -1274,7 +1274,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Rum‰nien"
+                       "value": "Rum√§nien"
                    }
                },
                {
@@ -1568,7 +1568,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "T¸rkei"
+                       "value": "T√ºrkei"
                    }
                },
                {
@@ -1586,7 +1586,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "T¸rkei"
+                       "value": "T√ºrkei"
                    }
                },
                {
@@ -1604,7 +1604,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "T¸rkei"
+                       "value": "T√ºrkei"
                    }
                },
                {
@@ -1678,7 +1678,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Vereinigtes Kˆnigreich"
+                       "value": "Vereinigtes K√∂nigreich"
                    }
                },
                {
@@ -1696,7 +1696,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Vereinigtes Kˆnigreich"
+                       "value": "Vereinigtes K√∂nigreich"
                    }
                },
                {
@@ -1714,7 +1714,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "Vereinigtes Kˆnigreich"
+                       "value": "Vereinigtes K√∂nigreich"
                    }
                },
                {
@@ -1788,7 +1788,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "÷sterreich"
+                       "value": "√ñsterreich"
                    }
                },
                {
@@ -1806,7 +1806,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "÷sterreich"
+                       "value": "√ñsterreich"
                    }
                },
                {
@@ -1824,7 +1824,7 @@
                    "country":
                    {
                        "type": "literal",
-                       "value": "÷sterreich"
+                       "value": "√ñsterreich"
                    }
                }
            ]

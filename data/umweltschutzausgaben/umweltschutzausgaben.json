@@ -1,4 +1,4 @@
-{
+ï»¿{
   "head": {
     "vars": [
       "country",
@@ -181,7 +181,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlieÃŸlich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -197,7 +197,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlieÃŸlich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -213,7 +213,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlieÃŸlich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -229,7 +229,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlieÃŸlich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -245,7 +245,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Deutschland (einschließlich der ehemaligen DDR seit 1991)"
+          "value": "Deutschland (einschlieÃŸlich der ehemaligen DDR seit 1991)"
         }
       },
       {
@@ -261,7 +261,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -277,7 +277,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -293,7 +293,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -309,7 +309,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -325,7 +325,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Dänemark"
+          "value": "DÃ¤nemark"
         }
       },
       {
@@ -1461,7 +1461,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "RumÃ¤nien"
         }
       },
       {
@@ -1477,7 +1477,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "RumÃ¤nien"
         }
       },
       {
@@ -1493,7 +1493,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "RumÃ¤nien"
         }
       },
       {
@@ -1509,7 +1509,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "RumÃ¤nien"
         }
       },
       {
@@ -1525,7 +1525,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Rumänien"
+          "value": "RumÃ¤nien"
         }
       },
       {
@@ -2021,7 +2021,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "TÃ¼rkei"
         }
       },
       {
@@ -2037,7 +2037,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "TÃ¼rkei"
         }
       },
       {
@@ -2053,7 +2053,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "TÃ¼rkei"
         }
       },
       {
@@ -2069,7 +2069,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "TÃ¼rkei"
         }
       },
       {
@@ -2085,7 +2085,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Türkei"
+          "value": "TÃ¼rkei"
         }
       },
       {
@@ -2181,7 +2181,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes KÃ¶nigreich"
         }
       },
       {
@@ -2197,7 +2197,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes KÃ¶nigreich"
         }
       },
       {
@@ -2213,7 +2213,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes KÃ¶nigreich"
         }
       },
       {
@@ -2229,7 +2229,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes KÃ¶nigreich"
         }
       },
       {
@@ -2245,7 +2245,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Vereinigtes Königreich"
+          "value": "Vereinigtes KÃ¶nigreich"
         }
       },
       {
@@ -2341,7 +2341,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "Ã–sterreich"
         }
       },
       {
@@ -2357,7 +2357,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "Ã–sterreich"
         }
       },
       {
@@ -2373,7 +2373,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "Ã–sterreich"
         }
       },
       {
@@ -2389,7 +2389,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "Ã–sterreich"
         }
       },
       {
@@ -2405,7 +2405,7 @@
         },
         "country": {
           "type": "literal",
-          "value": "Österreich"
+          "value": "Ã–sterreich"
         }
       }
     ]

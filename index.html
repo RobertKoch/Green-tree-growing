@@ -4,6 +4,7 @@
 <title>Green Tree Growing</title>
 <meta charset="UTF-8" />
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,6 +17,7 @@
     var scrollBarAdded = false;
     var actualYearToShow = 0;
     var dataToVisualize = 0;
+    var dataDescription = "";
 
     $('#header').html('<span><h2>Green Tree Growing</h2></span>');
     $('#infobox').html(getInfoContent()).css('width', '800px').fadeIn();
@@ -29,6 +31,12 @@
       $('#canvas').empty().css('margin-left', '0px');
       $('#header').html('<span><h2>Elektrizitätserzeugung aus erneuerbaren Energien</h2></span>');
       loadDataset('data/erneuerbare_energie/erneuerbareEnergien.json');
+
+      /** load description **/
+      dataDescription = "<h3>Erklärung der Daten</h3>";
+      dataDescription += "<p>Bei diesen Daten handelt es sich um Prozentangaben über den Anteil erneuerbarer Energien in der Elektrizitätserzeugung. <br/>Es gibt einen Prozentwert pro Mitgliedsland pro Jahr. </p><p>Je höher der Prozentwert umso größer ist der Baum. Die aktuellsten Daten stammen aus dem Jahr 2010.</p>";
+      dataDescription += '<a href="http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=nrg_ind_333a&lang=de" target="_blank" title="Zur Datenbank"><img src="img/data.png" /></a>';
+      $('#infobox').html(dataDescription).fadeIn();
     }); 
 
     $('a.co2').click(function(){
@@ -40,28 +48,46 @@
       $('#canvas').empty().css('margin-left', '0px');
       $('#header').html('<span><h2>Indikatoren für Treibhausgasemissionen & Luftverschmutzung</h2></span>');
       loadDataset('data/co2_indikatoren/co2_indikatoren.json');
+
+      /** load description **/
+      dataDescription = "<h3>Erklärung der Daten</h3>";
+      dataDescription += "<p>Diese Werte geben spezielle von Eurostat definierte Indikatoren zur Treibhausgasemission und Luftverschmutzung der einzelnen Mitgliedsländer an. Die Werte stehen dabei in Relation zum Basisjahr 1990. Damals wurde mit dem Wert 100 gestartet. In den darauffolgenden Jahren wurden die Treibhausgasemissionen und die Luftverschmutzung gemessen. Haben sich diese verschlechtert, wurde der Wert im Vergleich zum Basiswert auf eine Zahl größer als 100 erhöht. Haben sich die Werte eines Mitgliedsstaates hingegen verbessert spiegelt sich dies in einem Wert kleiner als 100 in der Datenbank wider.</p><p>Es hat also jenes Land mit dem geringsten Indikatorwert den größten Baum. Die letzten Daten wurden im Jahr 2009 dokumentiert.</p>";
+       dataDescription += '<a href="http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_ind&lang=de" target="_blank" title="Zur Datenbank"><img src="img/data.png" /></a>';
+      $('#infobox').html(dataDescription).fadeIn();
     });
 
     $('a.money').click(function(){
       countries = new Array();
       currentCanvasWidth = 0;
-      actualYearToShow = 2009;
+      actualYearToShow = 2007;
       dataToVisualize = 2;
       $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
       $('#header').html('<span><h2>Investitionen in die Vermeidung der Umweltverschmutzung</h2></span>');
       loadDataset('data/umweltschutzausgaben/umweltschutzausgaben.json');
+
+      /** load description **/
+      dataDescription = "<h3>Erklärung der Daten</h3>";
+      dataDescription += "<p>Diese Daten zeigen die Anteile der Umweltschutzausgaben, die für die Vermeidung von Umweltverschmutzung eingesetzt werden. Es handelt sich dabei um Prozentwerte.</p><p>Je höher der Prozentwert, umso größer ist der Baum. Auch hier gibt es einen Wert pro Mitgliedsstaat pro Jahr. Die letzte Aktualisierung stammt aus dem Jahr 2009.</p>";
+      dataDescription += '<a href="http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_ac_exp3&lang=de" target="_blank" title="Zur Datenbank"><img src="img/data.png" /></a>';
+      $('#infobox').html(dataDescription).fadeIn();
     }); 
 
     $('a.waste').click(function(){
       countries = new Array();
       currentCanvasWidth = 0;
-      actualYearToShow = 2009;
+      actualYearToShow = 2008;
       dataToVisualize = 3;
       $('#infobox').fadeOut();
       $('#canvas').empty().css('margin-left', '0px');
       loadDataset('data/abfall_pro_kopf/abfall.json');
       $('#header').html('<span><h2>Abfallaufkommen in Tonnen pro Kopf </h2></span>');
+
+      /** load description **/
+      dataDescription = "<h3>Erklärung der Daten</h3>";
+      dataDescription += "<p>Diese Daten geben an wie viel Abfall ein einzelner Bürger eines EU-Staates pro Jahr erzeugt. Die Werte geben dabei das Gewicht in Tonnen pro Kopf an.</p><p>Für jedes Mitgliedsland gibt es eine konkrete Zahl pro Jahr. In diesem Fall gilt, je geringer der Wert umso größer ist der Baum. Die aktuellsten Daten wurden im Jahr 2008 erhoben.</p>";
+      dataDescription += '<a href="http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_wasgen&lang=de" target="_blank" title="Zur Datenbank"><img src="img/data.png" /></a>';
+      $('#infobox').html(dataDescription).fadeIn();
     }); 
 
     //define functions
@@ -93,7 +119,7 @@
           var land = items[0].country.value;
           var year = items[0].year.value;
           var value = parseFloat(items[0].value.value.replace(',', '.'));
-          var maxValue = value;
+          var minValue = value;
 
           var lastCountry = land;
 
@@ -106,11 +132,12 @@
             
             land = items[idx].country.value;
             //console.log(land);
+            
             year = items[idx].year.value;
             value = parseFloat(items[idx].value.value.replace(',', '.'));
             
             if(year == actualYearToShow)
-              maxValue = (value > maxValue) ? value : maxValue;
+              minValue = (value < minValue) ? value : minValue;
 
             if(land == lastCountry)
             { 
@@ -126,7 +153,7 @@
           }
           //console.log(countries);
 
-          drawTrees(countries, maxValue);
+          drawTrees(countries, minValue);
           addListeners(); 
 
           if(!scrollBarAdded)
@@ -146,27 +173,47 @@
         switch(dataToVisualize)
         {
           case 0:
-            content += ' Anteil erneuerbarer Energien in der Elektrizitätserzeugung in Prozent.<br/><p>';
+            content += 'Anteil erneuerbarer Energien in der Elektrizitätserzeugung in Prozent.<br/><p>';
             for(var i = actualYearToShow; i >= 2005; i--)
-              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + ' %</span><br/>';
+              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + ' %</span>';
           break;
 
           case 1:
-            content += ' Anteil erneuerbarer Energien in der Elektrizitätserzeugung in Prozent.<br/><p>';
+            content += 'Spezielle von Eurostat definierte Indikatoren zur Treibhausgasemission und Luftverschmutzung.<br/><p>';
             for(var i = actualYearToShow; i >= 2005; i--)
-              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + ' %</span><br/>';
+              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + '</span>';
+
           break;
 
           case 2:
-            content += ' Anteil erneuerbarer Energien in der Elektrizitätserzeugung in Prozent.<br/><p>';
+            content += 'Die Anteile der Umweltschutzausgaben in Prozent von den Gesamtausgaben, die für die Vermeidung von Umweltverschmutzung eingesetzt werden.<br/><p>';
+            var val = 0;
             for(var i = actualYearToShow; i >= 2005; i--)
-              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + ' %</span><br/>';
+            {
+              if(isNaN(countries[this.id][i]))
+                val = 'keine Angabe';
+              else
+                val = countries[this.id][i] + ' %';
+
+              content += '<span><label>' + i + ':</label> ' + val + '</span>';
+            }
           break;
 
           case 3:
-            content += ' Anteil erneuerbarer Energien in der Elektrizitätserzeugung in Prozent.<br/><p>';
-            for(var i = actualYearToShow; i >= 2005; i--)
-              content += '<span><label>' + i + ':</label> ' + countries[this.id][i] + ' %</span><br/>';
+            content += 'Abfall eines einzelnen Bürgers pro Jahr in Tonnen.<br/><p>';
+            var i = actualYearToShow;
+            var val = 0;
+            //data of waste is only available for 08, 06 and 04
+            while(i >= 2004)
+            {
+              if(isNaN(countries[this.id][i]))
+                val = 'keine Angabe';
+              else
+                val = countries[this.id][i] + ' t';
+
+              content += '<span><label>' + i + ':</label> ' + val + '</span>';
+              i -= 2;
+            }
           break;
         }
 
@@ -174,9 +221,8 @@
         
         //wait till box is closed
         setTimeout(function() {
-          $('#infobox').html(content).css('width', '600px').fadeIn();        
+          $('#infobox').html(content).css('width', '600px').fadeIn();
         } , 500);
-
        
       });
 
@@ -191,12 +237,6 @@
           $('#infobox').html(content).css('width', '800px').fadeIn();        
         } , 500);
       });
-
-      /*$('#canvas a').mouseenter(function(){
-        $('#tooltip').text(this.id).fadeIn('slow');
-      }).mouseleave(function(){
-        $('#tooltip').fadeOut('slow');
-      });*/
     }
 
     function addScrollBars() {
@@ -247,7 +287,7 @@
       });
     }
 
-    function drawTrees(countries, maxValue)
+    function drawTrees(countries, minValue)
     {
       var picHeight = 350;
       var counter = 0;
@@ -269,15 +309,54 @@
           break;
 
           case 1:
+            var basis = 100;
+            var difference = basis - countries[i][actualYearToShow];
             picHeight = 150;
+
+            picHeight *= (1 + (difference / 100));
+
+            picHeight = parseInt(picHeight);  
           break;
 
           case 2:
-            picHeight = 150;
+            if(isNaN(countries[i][actualYearToShow]))
+              picHeight = 0;
+            else
+              picHeight *= (countries[i][actualYearToShow] / 100);
+            
+            picHeight = parseInt(picHeight) + 50;
           break;
 
           case 3:
-            picHeight = 150;
+            var newPicHeight = 0;
+            var difference = 0;
+            picHeight = 220;
+            if(isNaN(countries[i][actualYearToShow]))
+            {
+              picHeight = 50;
+            }
+            else
+            {
+              difference = countries[i][actualYearToShow] - minValue;
+              newPicHeight = 100 - countries[i][actualYearToShow];
+              picHeight *= (newPicHeight / 100);
+
+              if(difference > 20)
+                picHeight -= 40;
+              else if(difference > 10)
+                picHeight -= 30;
+              else if(difference > 5)
+                picHeight -= 30;
+              else if(difference >= 2)
+                picHeight -= 20;
+              else if(difference < 2)
+                picHeight += 20;
+
+              if(picHeight <= 0)
+                picHeight = 50;
+            }
+            picHeight = parseInt(picHeight);
+            console.log(picHeight);
           break;
         }
 

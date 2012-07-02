@@ -1,5 +1,5 @@
 body {
-  font-family: "Comic Sans MS", cursive;
+  font-family: 'Dosis', sans-serif;
   background-image: url(img/himmel.jpg);
   background-repeat: no-repeat;
 }
@@ -17,7 +17,7 @@ body {
 
 #header span {
   position: absolute;
-  top: -15px;
+  top: -10px;
   left: 20px;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .menu-item span.linktext {
-    vertical-align: -55px;
+    vertical-align: -58px;
 }
 
 .menu-item a.renewableEnergy {
@@ -142,6 +142,14 @@ body {
   background-color:rgba(222,222,222,0.5);
   padding: 0 20px 0 20px;
   z-index: 10;
+}
+
+#infobox img {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 50px;
+  height: 50px;
 }
 
 #canvas_container {
@@ -241,4 +249,20 @@ body {
   width: auto;
   height: auto;
   font-size: 22px;
+}
+
+#infobox span {
+  display: block;
+  margin: 0px 0px 10px 200px;
+  width: 200px;
+  line-height: 14px;
+  text-align: center;
+}
+
+#infobox label {
+  display: block;
+  width: 50%;
+  line-height: 14px;
+  float: left;
+  text-align: center;
 }
